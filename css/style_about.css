@@ -1,0 +1,258 @@
+@charset "utf-8";
+
+
+*{font-family:Arial, Helvetica, sans-serif;
+        margin-top: 0;margin-left: 0; margin-right: 0;
+      }
+
+      body{width: 100%;
+        margin: 0;padding: 0;
+      box-sizing: border-box;}
+      
+
+
+h3{ color: #31552f
+}
+
+/*header 레이아웃*/
+.head img {margin-left: 50px;
+        text-align: left;
+        margin-top: 0.5%;
+        width: 80px; height: 80px;}
+        
+
+.head  a { text-decoration: none; }
+
+.head ul li {list-style: none;
+                margin: 0; padding: 0;}
+
+.head{ margin: 0 auto; width: 100%; height: 100px; 
+               background-color: #2d6b7e; z-index: 99;
+               font-size: 1.7em; 
+               }
+       .top {position: relative;}
+       .top { width: 750px; position: absolute; top: 27px; right: 70px;
+        cursor: pointer; }
+       .top > ul { overflow: hidden;  }
+       .top > ul > li { float: left; width: 19%; text-align: center; padding: 0 2%;}
+      .top > ul > li > a { display: inline-block; padding: 12px 0px; width: 100%;  
+        color: white; font-weight: bold; }
+       .top > ul > li:hover > a { color: #51c0e2;  background: #f1f1f1; 
+        padding: 15%; margin: 0;}
+   
+       .submenu { display: none; position: absolute; z-index: 99; text-align: center;
+                padding: 0; margin: 0; 
+                  line-height: 30px;background: #51c0e2; width: 178px; }
+    
+       .submenu > li > a { display: inline-block; padding: 14px 15px; color: white; width: 148px ; font-size: 15px; }
+       .submenu > li > a:hover { background: #93b5e0;}
+        #Portpolio{margin-left: 3%;}
+
+
+/*aside 레이아웃*/
+
+aside{ clear: both;
+        padding: 10px 7px;
+        margin-right: 10px;
+        margin-left: 20px;
+        float: left;
+        
+    }
+
+.side{ margin-top: 0;
+        margin-left: 4%;}
+aside div{
+        float: left;
+        margin-left: 40px;}
+
+aside .mine{width: 280px; height: 300px;
+         border-radius: 10px;}
+
+.side02 ul{list-style: url(../img/flower_icon.png);
+                 margin-top:200px;  margin-left: 0;
+                padding-left: 17%; padding-right: 0;
+                font-size: 0.8em; 
+              height: 330px;    
+               }
+
+.side02 ul li{ margin-top: 2%;
+                padding-bottom: 2%;}
+
+aside,.main{display: inline-block;
+        margin-top: 60px;}
+
+.side02 { width: 72%;
+            text-align: left;
+            padding:  0px 30px;
+            padding-bottom: 10px;
+        background-color: #308894;
+        border-radius: 10px;
+        margin-top: 100px;
+        color: white;
+       }
+
+.side02 div {
+                margin: 0;
+                margin-left: 1%;}
+.side02 div h3{float: left;}
+.side02 div img{margin: 0;
+                width: 40px; height: 40px;
+                padding: 0; float: left;   
+        margin-top: 10px;  }
+
+.side02 ul{margin-top: 100px;
+                margin-left: 0;
+               
+               }
+
+.side02 ul li{ line-height: 1px;
+                padding-left: 0;
+               }
+
+
+ .side02 p{ clear: both;
+                line-height: 10px;
+                text-indent: 12px;
+                font-size: 0.9em;
+               }
+
+.side02 h3{color: rgb(193, 216, 228);
+        margin-top: 22%;}
+
+/*section 레이아웃*/
+
+.body1{
+       
+        clear: both;
+        float: left;
+        height: 60%; width: 45%;}
+
+div.main {margin-top: 1%;
+        margin-left: 2%;}
+
+/*section article 레이아웃*/
+
+.body1{margin-top: 6%;}
+
+.body1> article{/*float: left;*/
+                padding: 0 5px;
+                }
+.body1 article p{ font-size: 1.0em;
+                    padding-left: 10px;
+                    line-height:5%;
+                text-indent: 15px;}
+
+.body1 .school{
+                height: 285px;
+                padding-top: 5%;margin-bottom: 6%;
+                background-color: #e4f8f3;
+                box-shadow: 3px 3px 10px 5px lightslategray inset;
+                border: 10px solid;
+                border-image: linear-gradient(to bottom, #308894, #ffffff,#308894) 1;}
+
+.body1 .school p{line-height: 15px;}
+
+.body1 .school #index{ text-indent: 8%;}
+
+.title h3 {margin: 0;
+        padding-left: 4%;
+        margin-bottom: 5%;}
+
+
+.body1.title img{vertical-align: middle;
+               }
+
+.body1 .experience{ background-color: #e4f8f3;
+        border: 10px solid;
+        box-shadow: 3px 3px 10px 5px lightslategray inset;
+         border-image: linear-gradient(to bottom, #308894, #ffffff,#308894) 1;
+        padding-bottom: 2%;}
+
+
+.body1 .experience h3{ padding-top: 15px;}
+
+.body1 .experience p{ line-height: 12px;}
+
+.body1 .experience #index{text-indent: 7%}
+
+
+.body2{height: 65%; width: 50%;
+        margin-top: 6%;}
+
+
+
+/*footer 레이아웃*/
+
+footer{float: left;
+        margin-left: 50px;
+        border-radius: 15px;
+       }
+
+/*footer page레이아웃*/
+
+footer section{  padding: 5px;
+        padding-left: 4%;
+        background-color: #e4f8f3;
+        height: 300px; width: 550px;
+        box-shadow: 3px 3px 10px 5px lightslategray inset;
+        border: 10px solid;
+        border-image: linear-gradient(to bottom, #308894, #ffffff,#308894) 1;
+        margin-bottom: 5%;}
+
+footer section div#icon{float: left;
+                        margin-left: 7%;}
+
+footer section div#icon img{margin: 0;
+        width: 35px; height: 35px;
+        padding: 0; float: left;   
+        margin-left: 0;
+margin-top: 25px; }
+
+footer section div#icon h3{width:150px;
+        margin-top: 22%;
+                        text-align: center;
+                }
+footer section p#jump{margin-top: 10%;}
+
+footer section article.hobby{margin-top: 15%;
+                                margin-left: 4%;}
+
+footer section  article div {clear: both;
+        text-align: center;
+        display:inline-block;
+        padding: 2% 4%;}
+
+footer section div img{ width:80px; height: 80px;
+                        }
+footer section div p{text-align: center;
+        font-size: 1.5em;
+        margin-top: 1.5%;
+        font-family: 'Nanum Pen Script', cursive;}
+
+footer main{ 
+        width: 550px; height: 200px;
+        padding: 16px 10px;
+        clear: both;
+        background-color: #e4f8f3;
+        border: 10px solid;
+        box-shadow: 3px 3px 10px 5px lightslategray inset;
+       border-image: linear-gradient(to bottom, #308894, #ffffff,#308894) 1;}
+footer main .name{margin-top: 10px;
+                margin-bottom: 5px;}
+
+footer h3{margin-bottom: 0; margin-top: 4%; margin-left: 1%;}
+footer main div img{height: 35px; width: 35px;
+                margin-top: 2%;}
+footer main div.name img,footer main div h3{float: left;}
+footer main .skill {display: inline-block;
+                        padding-top: 5%;}
+footer main .skill img{ width: 60px; height: 60px;
+                    padding: 0px 7px;   
+                    clear: both;
+                }
+footer main div{ margin-left: 50px;}
+footer main div p{display: inline-block;
+                padding: 0px 10px;
+                margin-top: 0;
+                margin-right: 4%;
+                font-weight: bold;}
