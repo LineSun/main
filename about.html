@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Line S_a bout</title>
+    <link rel="shortcut icon" href="img/leaf.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style_about.css">
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+    
+$(document).ready(function() {
+    $('nav> ul > li').mouseenter(function(){
+        $(this).children(".submenu").stop().slideDown(400);
+    });
+    $('nav > ul > li').mouseleave(function(){
+        $(this).children('.submenu').stop().slideUp(100);
+    });
+});
+</script>
+
+</head>
+<body>
+ 
+
+    <div id="warp">
+        <header class="head">
+            <img src="img/로고2.png" alt="logo">
+          <nav class="top">
+          <ul>
+            <li>
+            <a class="menu" href="index.html">Home</a>
+              <ul class="submenu">
+              </ul>
+            </li>
+            <li><a class="menu" href="index.html#about">Value</a>
+              <ul class="submenu">
+              </ul>
+            </li>
+            <li>
+              <a  class="menu"href="about.html">About</a>
+              <ul class="submenu">
+              </ul>
+            </li>
+            <li id="Portpolio">
+              <a class="menu" href="#">Portpolio</a>
+              <ul class="submenu">
+                <li><a href="index.html##gallery">Gallery</a></li>
+                <li><a href="../music/main.html" target="_blank">Music Academy</a></li>
+                <li><a href="#">Business Homepage</a></li>
+              </ul>
+            </li>
+          </ul>
+          </nav>
+        </header>
+    </div>
+
+
+    <aside class="side">
+       <div>
+         <img class="mine" src="img/mine1.jpg" alt="mine1">
+       </div>
+        
+        <header class="side02">
+            <ul>
+                <li>생년월일 : 1995. 08. 10</li>
+                <li>주소 : 경기 용인시 기흥구 구갈동</li>
+                <li>연락처 : 010-0000-0000</li>
+                <li>이메일 : qoswmfdl@naver.com</li>
+            </ul>
+            <div>
+                <img src="img/flower_icon2.png" alt="flower_icon2">
+                <h3>자격증</h3>
+            </div>
+            <p>○ 사회복지사 2급</p>
+            <p>○ 보육교사 2급</p>
+            <p>○ 요양보호사 </p>
+            <p>○ 1종 보통 운전면허</p>
+            <p>○ Mos powerpoint 2010</p>
+            <p>○ GTQ 2급</p>
+            <p>○ 컴퓨터 그래픽스 운용기사</p>
+            <p>○ 의료행정 사무원 2급</p>
+            <p>○ 사무행정 실무사 2급</p>
+            <p>○ 법률사무원</p>
+        </header>
+    </aside>
+    <div class="main">
+        <section class="body1">
+            <article class="school">
+                <div class="title">
+                    <h3><img src="img/flower_icon2.png" alt="flower_icon2">학력사항</h3>
+                </div>
+                <p>○ 2014년 창현고 졸업</p>
+                <p>○ 2017년 국제대학교 사회복지과 졸업</p>
+                <p id="index">-아동보육 복수전공</p>
+                <p>○ 2020년 HRD서울법률교육원_법률사무원취업과정 수료</p>
+                <p>○ 2021년 한양사이버대학교 시각디자인과 제적</p>
+                <p>○ 2024년 플러스컴퓨터학원_멀티미디어 콘텐츠 제작 수료</p>
+
+                
+            </article>
+            <article class="experience">
+                <div class="title">
+                   
+                    <h3><img src="img/flower_icon2.png" alt="flower_icon2">경력사항</h3>
+                </div>
+                <p>○ 요양원, 주야간보호, 방문요양센터 근무</p>
+                <p id="index">-사회복지사 노인분야</p>
+                <p id="index">(센터관리 및 클라이언트관리, 직원관리)</p>
+                <p>○ 직업훈련학원_ 간호학원근무</p>
+                <p id="index">(사무행정 및 관리)</p>
+            </article>
+        </section>
+        <footer class="body2">   
+
+                <section>
+                    <div id="icon">
+                        <img src="img/flower_icon2.png" alt="flower_icon2">
+                        <h3>취미 및 특기</h3>
+                    </div>
+                 <p id="jump"></p>
+                    <article class="hobby">
+                      <br>
+                        <div>
+                            <img src="img/watching-a-movie.png" alt="movie">
+                            <p>영화보기</p>
+                        </div>
+                        <div>
+                            <img src="img/music.png" alt="music">
+                            <p>음악듣기</p>
+                        </div>
+                        <div>
+                            <img src="img/watering-plants.png" alt="plants">
+                            <p>식집사</p>
+                        </div>
+                        <div>
+                            <img src="img/cooking.png" alt="cooking">
+                            <p>요리하기</p>
+                        </div>
+                    </article>
+                </section>
+
+            <main>
+                <div class="name">
+                    <img src="img/flower_icon2.png" alt="flower_icon2">
+                    <h3>보유 스킬</h3>
+                </div>
+                <div class="skill">
+                    <img src="img/psd-file.png" alt="psd">
+                    <img src="img/ai.png" alt="AI">
+                    <img src="img/indesign.png" alt="indesign">
+                    <img src="img/html.png" alt="html">
+                    <img src="img/css.png" alt="css">
+                    <img src="img/java.png" alt="java">
+                </div class="skill">
+            </main>
+        </footer>
+    </div>
+</body>
+</html>
