@@ -1,0 +1,161 @@
+@charset "utf-8";
+
+*{margin:0;
+}
+/*header 레이아웃*/
+
+
+header{ background-color: #ada58d;
+    width: 100% auto; height: 3%;}
+
+
+header .logo {margin-top: 1.5%; margin-bottom: 1%;
+        padding-left: 50px;
+            width: 140px; height: 70px; }
+ header div#logo1 > a:hover {opacity: 0.5;}
+
+/*메뉴 움직이는것 구성*/
+#container { margin:20px auto;  position:relative;}
+ul { list-style:none; padding:0;  text-decoration:none; }
+.menu {position:absolute; top:3.5%; left:30%; text-align:center; background-color: white;}
+.sub{  position:absolute; top:79px;    z-index:10;  width:200px;}
+.sub li { background-color:#ada58d; display:block; }
+.menu > li{ display:inline-block;  width:200px; margin:-3px; height:82px; line-height:80px; background-color:#ada58d;}
+header a { text-decoration:none; color:white; font-size:120%; font-weight:bold;}
+
+.menu_s:hover{background-color: rgb(209, 207, 207); }
+.sub li:hover{background-color: rgb(209, 207, 207);}
+
+
+
+
+/*figure 레이아웃*/
+
+figure{margin: 0%;}
+
+figure img{width: 100%;}
+
+
+
+/*main 레이아웃*/
+
+main{
+    text-align: center;
+    margin: 5% 0%;
+    }
+
+main #content{margin: 0% 10%;}
+
+
+main #main_01{width: 100%; height: 300px;
+            margin-top: 5%;}
+
+main h2{
+    text-align: left;
+    font-size: 3.5em; 
+    margin-bottom: 5%; margin-left: 20%;
+    color:#a7a189;
+}
+
+
+main #meno{margin-bottom: 3%;
+        text-align: left; margin-left: 5%;
+        background-image: url(../img/ask.png);}
+
+
+main #meno p{
+font-size: 2em;
+line-height: 250%;
+margin-left: 11%;
+}
+
+main #meno p span{
+    color: rgb(114, 110, 110);
+    text-shadow: 1px 1px 1px gray;
+}
+
+main #meno p span{
+font-weight: bold;
+}
+
+#left{margin-left: 5%;
+   line-height: 15%;}
+
+main h4{font-size: 1.5em ;
+    line-height:200%;
+    }
+
+main h4 span{font-size: 1.3em;
+    color: rgb(114, 110, 110);
+    text-shadow: 1px 1px 1px gray;}
+
+main article{background-image: url(../img/figure.jpg);
+            width: 100%; height: 450px;
+            margin-top: 5%;}
+
+ #main_img{position: absolute;
+                        top: 915px;
+                        left: 150px;}           
+
+/*section 레이아웃*/
+section {
+        text-align: center;
+        margin-bottom: 5%;}
+section h1{  text-align: left;
+    font-size: 3.5em; 
+    margin-bottom: 5%; margin-left: 27%;
+    color:#a7a189;}
+section .address span{font-size: 1.2em;
+            font-weight: bold;
+            color: rgb(114, 110, 110);}
+
+section div{display: inline-block;}
+
+.address{text-align: left; font-size: 1.2em; margin-right: 5%;}
+section h2{ font-size: 3em;}
+
+
+
+.phone p{font-size: 1.2em;
+        font-weight: 600;
+        color: rgb(114, 110, 110);}
+
+/*section article 레이아웃*/
+
+section article {margin: 2% 0%;}
+
+
+
+
+
+footer{ clear: both;
+    background-color: #ada58d;
+    padding: 2% 15%; margin-top: 0;
+    color: white;
+    }
+
+footer #sns{ width: 50px; height: 50px;
+            display: inline;}
+
+footer #sns img{margin-left: 0.5%;}
+
+footer div img{float: left;
+            width: 100px; height: 80;}
+
+footer div#impo {float: left;
+            margin-left: 3%;
+            margin-top: 1.5%;
+            width: 66.5%;}
+
+footer p{display: inline;
+    font-size: 0.8em;
+   padding-left: 1%;
+    text-align: center;}
+
+
+footer h2{float: right;
+    padding: 2% 0%;
+    font-size: 2em;}
+    
+footer h6{clear: both;
+    margin-bottom: 3%;}
